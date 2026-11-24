@@ -1,6 +1,6 @@
 # Multi-Site-Corporate-Network
 
-<img width="1365" height="723" alt="image" src="https://github.com/user-attachments/assets/0030108e-4e89-4bec-a9cb-92d0f89e9391" />
+<img width="1365" height="723" alt="image" src="https://github.com/user-attachments/assets/0030108e-4e89-4bec-a9cb-92d0f89e9391"/>
 
 <h2>Description</h2>
 I designed a three site network connecting a Headquarter (HQ-Router) to two remote offices branch 1 and branch 2 routers in Cisco Packet Tracer. Configured with inter-site WAN links alongside local area networks at each location using switches and end user PC(PC0–PC5). A DHCP server was deployed Headquarters site to automate IP address assignment.
@@ -13,11 +13,14 @@ I designed a three site network connecting a Headquarter (HQ-Router) to two remo
 
 - <b>Windows 11 </b> (26H2)
 
-<h2>Project WalkThrough </h2>
+<h2>Project Walkthrough </h2>
 
 <p align="center">
-Launch the utility: <br/>
-
+Topology design and cabling: <br/>
+<img width="1365" height="701" alt="image" src="https://github.com/user-attachments/assets/8e66ab12-0576-4829-9c5c-bebb913df0ac" 
+ style="width: 600px; max-width: 100%; height: auto;"/>
+<h3>WAN vs LAN subnet design</h3>
+The WAN links use a /30 subnet mask (255.255.255.252), whereas LANs typically use a /24 (255.255.255.0), because point-to-point WAN links only ever need two usable IP addresses.
 <br />
 <br />
 Select the disk:  <br/>
