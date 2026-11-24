@@ -23,7 +23,17 @@ Topology design and cabling: <br/>
 The WAN links use a /30 subnet mask (255.255.255.252), whereas LANs typically use a /24 (255.255.255.0), because point-to-point WAN links only ever need two usable IP addresses.
 <br />
 <br />
-Select the disk:  <br/>
+ <h3>DHCP with Cross-Site Relay:  </h3><br/>
+ 
+ DHCP server and relay setup
+
+In this step, I’m setting up DHCP so that devices at all sites can recieve IP addresses and DHCP relay is used tomforward  DHCP messages between client devices and DHCP servers located on different subnets or networks.
+
+<p align="center">
+Network topology with DHCP server and PCs at each site<br/>
+<img width="1365" height="579" alt="image" src="https://github.com/user-attachments/assets/afec9c9e-2812-4e32-a15d-fc221bfafabd" 
+
+
 
 <br />
 <br />
